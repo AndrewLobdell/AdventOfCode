@@ -49,6 +49,7 @@ public static class Program
         {
             1 => new Day01(),
             2 => new Day02(),
+            3 => new Day03(),
             // NEW_DAY_MARKER
             _ => throw new NotImplementedException($"Day {day:00} has not been implemented yet."),
         };
